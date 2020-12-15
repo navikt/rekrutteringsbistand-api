@@ -29,7 +29,7 @@ jobs:
     #########################
     ### DEVELOPERS: Insert your feature branch name below (in addition to master) if you want to deploy it to dev
     #########################
-    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/flytt-til-team-namespace'
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/deploy-til-dev'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
